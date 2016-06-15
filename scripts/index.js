@@ -3,12 +3,12 @@
 
 (function(){
 	"use strict";
-	const locationURL = "https://weathersync.herokuapp.com/ip";
-	const weatherURL = "https://weathersync.herokuapp.com/weather/${lat},${lng}";
-	const iconUrl = "http://openweathermap.org/img/w/${icon}.png";
-	const latRE = "\\\$\\\{lat\\\}";
-	const lngRE = "\\\$\\\{lng\\\}";
-	const iconRE = "\\\$\\\{icon\\\}";
+	var locationURL = "https://weathersync.herokuapp.com/ip";
+	var weatherURL = "https://weathersync.herokuapp.com/weather/${lat},${lng}";
+	var iconUrl = "http://openweathermap.org/img/w/${icon}.png";
+	var latRE = "\\\$\\\{lat\\\}";
+	var lngRE = "\\\$\\\{lng\\\}";
+	var iconRE = "\\\$\\\{icon\\\}";
 
 	// page items
 	var city, temp, description, icon,
