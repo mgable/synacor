@@ -57,6 +57,6 @@ I did not try an make any optimizations for production (i.e. minification and co
 
 Since this is an AJAX application, it needs to be run from a server. **It will not work when loaded as a file.**
 
-I have hosted the test on my AWS account which can be viewed [here](https://s3-us-west-1.amazonaws.com/synacor-mgable/index.html, "Synacor Test on AWS") .
+I have hosted the test on my AWS account which can be viewed [here](https://s3-us-west-1.amazonaws.com/synacor-mgable/index.html "Synacor Test on AWS") .
 
 I found this a very enjoyable exercise.
