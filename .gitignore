@@ -4,3 +4,4 @@ tmp/
 logs/
 bower_components/
 *.log
+.sass-cache/
